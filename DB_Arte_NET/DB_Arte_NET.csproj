@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <Reference Include="MySql.Data">
-      <HintPath>Z:\DB_Arte_NET\ConnettoreMySqlNet\Core\MySql.Data.dll</HintPath>
+      <HintPath>..\ConnettoreMySqlNet\Core\MySql.Data.dll</HintPath>
     </Reference>
   </ItemGroup>
 
