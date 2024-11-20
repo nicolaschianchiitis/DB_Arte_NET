@@ -32,6 +32,7 @@
             SelectArtista = new DataGridViewButtonColumn();
             lblArtisti = new Label();
             btnTecniche = new Button();
+            btnUtilities = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvArtisti).BeginInit();
             SuspendLayout();
             // 
@@ -62,7 +63,7 @@
             // 
             // btnTecniche
             // 
-            btnTecniche.Location = new Point(348, 638);
+            btnTecniche.Location = new Point(244, 638);
             btnTecniche.Name = "btnTecniche";
             btnTecniche.Size = new Size(184, 44);
             btnTecniche.TabIndex = 3;
@@ -70,11 +71,22 @@
             btnTecniche.UseVisualStyleBackColor = true;
             btnTecniche.Click += BtnTecniche_Click;
             // 
+            // btnUtilities
+            // 
+            btnUtilities.Location = new Point(461, 638);
+            btnUtilities.Name = "btnUtilities";
+            btnUtilities.Size = new Size(175, 44);
+            btnUtilities.TabIndex = 4;
+            btnUtilities.Text = "Mostra finestra Utilities";
+            btnUtilities.UseVisualStyleBackColor = true;
+            btnUtilities.Click += BtnUtilities_Click;
+            // 
             // WindowsFormArtisti
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(881, 694);
+            Controls.Add(btnUtilities);
             Controls.Add(btnTecniche);
             Controls.Add(lblArtisti);
             Controls.Add(dgvArtisti);
@@ -91,5 +103,6 @@
         private Label lblArtisti;
         private DataGridViewButtonColumn SelectArtista;
         private Button btnTecniche;
+        private Button btnUtilities;
     }
 }

@@ -38,5 +38,11 @@ namespace DB_Arte_NET
             WindowsFormOpereTecnica tecniche = new WindowsFormOpereTecnica();
             tecniche.Show();
         }
+
+        private void BtnUtilities_Click(object sender, EventArgs e)
+        {
+            WindowsFormUtilities utilities = new WindowsFormUtilities();
+            utilities.Show();
+        }
     }
 }
